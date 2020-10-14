@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "steviesadditions",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Stevie's Additions",
+  "description": "Run-of-the-mill Fabric mod. Nothing special.",
   "authors": [
-    "Me!"
+    "convicted tomatophile (Steviegt6)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://steveigt6.github.io/",
+    "sources": "https://github.com/Steviegt6/SteviesAdditions"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.steviegt6.steviesadditions.SteviesAdditions"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "steviesadditions.mixins.json"
   ],
 
   "depends": {
